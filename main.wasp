@@ -1,0 +1,9 @@
+app WarehouseERPSkeleton {
+  title: "Warehouse ERP Skeleton"
+  auth: {
+    userEntity: User,
+    methods: [EmailAndPassword]
+  }
+}
+
+route "/" -> page Main
