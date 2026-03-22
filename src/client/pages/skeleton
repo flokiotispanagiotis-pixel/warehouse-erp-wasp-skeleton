@@ -1,0 +1,8 @@
+export default function Main() {
+  return (
+    <div style={{ padding: 40 }}>
+      <h1>Warehouse ERP Skeleton</h1>
+      <p>The base Wasp project is ready. Start adding modules.</p>
+    </div>
+  );
+}
